@@ -1,8 +1,14 @@
-import Link from 'next/link'
-import Layout from '../components/Layout'
+import Link from 'next/link';
+import Layout from '../components/Layout';
+import Head from 'next/head';
 
 const Index = () => (
   <Layout>
+    <Head>
+      <title>
+        Hello!
+      </title>
+    </Head>
     <h1>
       Hello, Next.js
     </h1>

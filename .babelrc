@@ -1,0 +1,6 @@
+{
+  "presets": [
+    "next/bable",
+    "stage-0"
+  ]
+}
